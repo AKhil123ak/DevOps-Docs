@@ -1,0 +1,7 @@
+secure shell is a network protocol for securing the data that flows between a client and a server over a public networks such as internet
+when a client connects, it needs to be verified. one of the method for that is keyss
+once the connection successful, SSH transfer the data in encryption
+default port is 22 for this
+it is secure file transter
+with this SSH, admins can log from homenetwor and perform 
+by default SSH will be there i linux machines

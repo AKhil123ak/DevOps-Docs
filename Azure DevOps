@@ -1,0 +1,36 @@
+azure devops
+++++++++++++
+private URL in organisation overview settings.
+security settings in organisation overview settings.
+need to know about work process.
+inthertence option in project security.
+need practice on adding extensions
+need to practice creating users & groups
+need to know more about agentless jobs
+pull request and comment triggers in build pipelines
+need to practice triggers with branch filters or path filters.
+status badge in pipeline options
+pre deployment aprovals in releases
+what if we have one agent running and one build is in queue which is paused. will it affect the other jobs to not start as the paused job is in queue?
+how does the permissions works if we give different permissions to all, folder level & each pipelines
+how to pull only specific folder or file from the repo
+document on variables
+need know about dashboards.
+need to check how release works with $(buildid) if we add artifact as pipeline
+
+
+how exactly we can create or add users. how are they managing?
+
+environments
+library
+task groups
+deployment groups
+artifacts
+more knowledge on global notifications in organisation settings.
+how to install tools and use
+knowledge on agent's folders work and tool
+service connections
+parameter job
+more on multi stage release
+publish artifact plugin
+

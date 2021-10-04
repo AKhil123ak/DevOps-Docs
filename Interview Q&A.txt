@@ -1,0 +1,28 @@
+can we use ansible with different versions of python on node & master
+what happens when the kubernetes master is down
+can we add a github & svn for same job
+how to you change the default time to check the masifest file in master
+
+
+issues on every tool
+how to take backup and restore git server
+how many production or live servers do you have
+need to know about web servers
+how to check the file or directory using script
+what is telnet & difference between telnet and ssh
+
+what is the process happens when we restart ec2 instance
+difference between NAT and VPN
+what is VPC peering
+difference between VPC & VPN
+how do you monitor docker containers
+what is TCP. difference between TCP & UDP
+what is swap memory
+how to create windows slaves in jenkins and ansible
+do ansible roles works if we write different file other than main.yml
+cross zone load balancing
+how to create DNS records in AWS
+do we create NAT gateway on ecc2 or subnet level
+how many NAT instances are required. need to create one for every instance?
+difference between project based and role bases metrix
+how to move single job from one jenkins server to another

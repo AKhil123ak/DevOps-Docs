@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+      tools {
+          jdk 'JAVA_HOME'
+          maven 'MAVEN_HOME'
+      }
+        stages {
+          parallel {
+            stage('checkout') {
+               steps {
+                   checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '1dd4466f-9379-435b-9cb8-c1c1abd709fe', url: 'https://github.com/AKhil123ak/akk.git']]])
+               }
+            }   
+            stage('email') {
+              steps {
+                   emailext body: '', subject: 'Build status', to: 'd.akhilchowdary@gmail.com'
+               }
+            }
+          }
+            
+        }
+}
